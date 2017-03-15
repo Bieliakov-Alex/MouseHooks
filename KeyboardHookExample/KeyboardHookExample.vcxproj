@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{590780C8-60BC-49D1-A8B7-1ACAA117E4C5}</ProjectGuid>
+    <ProjectGuid>{2C8E248A-1FD3-498C-BCB5-9F705A854D15}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>TestHook</RootNamespace>
+    <RootNamespace>KeyboardHookExample</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,7 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="KeyboardHookExample.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
